@@ -1,0 +1,22 @@
+version: "3.8"
+
+services:
+
+  router_a:
+    privileged: true
+    build:
+      context: .
+      dockerfile: router_a.dockerfile
+    ports:
+      - "60322:22"
+    tty: true
+    networks:
+      default:
+        ipv4_address: 172.30.0.131
+    hostname: router_A
+  
+networks:
+  default:
+    ipam:
+      config:
+        - subnet: 172.30.0.0/24
