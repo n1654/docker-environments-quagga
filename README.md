@@ -8,7 +8,9 @@ Sandbox environment with Cisco like CLI devices based on quagga software:
 ## How to run
 
 ```sh
-$ git clone 
+$ git clone https://github.com/n1654/docker-environments-quagga.git
+$ cd ./docker-environments-quagga
+$ sudo docker-compose up -d
 ```
 
 ## Diagram - network
