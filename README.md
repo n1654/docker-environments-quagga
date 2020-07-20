@@ -1,9 +1,13 @@
 # [Sandbox] QUAGGA LAB
 
 Sandbox environment with Cisco like CLI devices based on quagga software:
-  - router_A - (zebra, ospfd, bgpd)
-  - router_B - (zebra, ospfd, bgpd)
-  - router_C - (zebra, ospfd, bgpd)
+  - router_A: 
+    - (zebra, ospfd, bgpd)
+  - router_B:
+    - (zebra, ospfd, bgpd)
+  - router_C:
+    - (zebra, ospfd, bgpd)
+
 
 ## How to run
 
