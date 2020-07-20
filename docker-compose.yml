@@ -12,7 +12,7 @@ services:
     tty: true
     networks:
       default:
-        ipv4_address: 172.30.0.131
+        ipv4_address: 172.20.0.131
     hostname: router_A
 
   router_b:
@@ -25,7 +25,7 @@ services:
     tty: true
     networks:
       default:
-        ipv4_address: 172.30.0.132
+        ipv4_address: 172.20.0.132
     hostname: router_B
 
   router_c:
@@ -38,11 +38,10 @@ services:
     tty: true
     networks:
       default:
-        ipv4_address: 172.30.0.133
+        ipv4_address: 172.20.0.133
     hostname: router_C
 
 networks:
   default:
-    ipam:
-      config:
-        - subnet: 172.30.0.0/24
+    external:
+      name: quickstart_default
