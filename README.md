@@ -32,7 +32,7 @@ $ ssh zebra@172.20.0.131
 ```
 
 **Default configuration**
-```js
+```bash
 router_A# sh run
 Building configuration...
 
@@ -79,7 +79,7 @@ $ ssh zebra@172.20.0.132
 ```
 
 **Default configuration**
-```js
+```bash
 router_B# sh run
 Building configuration...
 
@@ -126,7 +126,7 @@ $ ssh zebra@172.20.0.133
 ```
 
 **Default configuration**
-```js
+```bash
 router_C# sh run
 Building configuration...
 
