@@ -2,11 +2,11 @@
 
 Sandbox environment with Cisco like CLI devices based on quagga software:
   - router_A: 
-    - (zebra, ospfd, bgpd)
+    - (zebra, ospfd, bgpd, openssh, iputils) - 25.7MB
   - router_B:
-    - (zebra, ospfd, bgpd)
+    - (zebra, ospfd, bgpd, openssh, iputils) - 25.7MB
   - router_C:
-    - (zebra, ospfd, bgpd)
+    - (zebra, ospfd, bgpd, openssh, iputils) - 25.7MB
 
 
 ## How to run
